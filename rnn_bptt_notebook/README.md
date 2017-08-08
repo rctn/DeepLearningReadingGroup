@@ -1,13 +1,7 @@
-# hippo
-Codebase for a hippocampal model collaboration. 
+# A notebook demonstrating the training of RNNs by BPTT
 
-Prereqs:
-tensorflow,
-pyaml,
-h5py
+You'll want to look at RNNs_and_BPTT.ipynb to run through try the code by yourself. 
 
-Install it:
-python setup develop
+If the notebook is cumbersome to run on your hardware/you are lazy feel free to have look at the version with results already generated in RNNs_and_BPTT-with_outputs.ipynb.
 
-There's not much here yet other than these bananas: 	🍌🍌🍌🍌🍌🍌
-
+Here's some food for thought: :banana::banana::banana::banana::banana::banana:
