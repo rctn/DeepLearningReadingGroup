@@ -1,0 +1,22 @@
+run_name: 'bouncing_block_prediction'
+
+use_params: ['defaults.yaml', 'single_layer_rnn.yaml']
+
+n_train_steps: 20001
+n_prop: 10
+n_reject: 3
+
+optimizer:
+  eta0: .01
+  steps_til_decay: 2000
+
+data:
+  type: 'video'
+  n_frames: 100
+  frame_dim: [10, 10]
+  block_size: [2, 2]
+  n_video: 1000
+  v_range: [1, 3]
+
+  # train validate test
+  data_split: [.8, .1, .1]

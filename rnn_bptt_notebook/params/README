@@ -1,0 +1,3 @@
+Notes about our network parameter form will go here.
+
+I think it's useful to also have a few example parameterizations commited, but in general we don't want them to proliferate in the repo-- only commit a new version if it's really illustrating a new use case.

@@ -1,0 +1,14 @@
+n_train_steps: 20001
+n_batch: 64
+n_prop: 30
+n_reject: 10
+#train_state_reset_rate: 2000
+prediction_delay: 1
+
+n_samples: 100
+
+optimizer:
+  algorithm: 'adam'
+  eta0: .01
+  eta_decay_factor: .5
+  steps_til_decay: 2000

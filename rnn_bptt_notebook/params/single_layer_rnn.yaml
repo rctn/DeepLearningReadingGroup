@@ -1,0 +1,5 @@
+layers: [
+{dim: 'input_dim'}, # 'input_dim' used a placeholder to indicate it should be inferred from the data
+{type: SRNN, dim: [256]},
+{type: Linear, dim: 'input_dim'}
+]
