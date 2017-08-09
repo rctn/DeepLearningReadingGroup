@@ -255,7 +255,7 @@ def cross_entropy(p_pred, p_true, is_valid):
         1, keep_dims=True)
 
 def l2_loss(y, y_hat, is_valid):
-    return tf.nn.l2_loss(tf.boolean_mask(y - y_hat, is_valid))
+    return tf.nn.l2_loss(tf.boolean_mask(y - y_hat, is_valid))/tf.cast(y.shape[0], tf.float32)
 
 def get_split_pts(n_data, data_split):
     eps = 1e-6
